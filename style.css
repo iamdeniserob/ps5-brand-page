@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">/* show on */
+			@keyframes fade-in {from {transform: scale(.7,.7)}
+    		/* to {opacity: 1;} */}
+			.fade-in-element {animation: fade-in 1.4s 0s;}
+			.hiddens{opacity: 0;}
+			.fullblock{height: 100%; width: 100%; text-align: center;}
+			/* Hero banner */
+			.ps5-banner-hero{margin: 0;}
+			.ps5-banner-hero img{width: 100%;}
+			/* Video Zone */
+			.ps5-accessories-vid{width: 100%; position: relative; margin-bottom: 30px;}
+			.ps5-accessories-vid video{width: 100%;}
+			.ps5-accessories-vid .ps5-vid-text{text-align: center;}
+			.ps5-accessories-vid .ps5-vid-text h1{font-weight: 700; transition: .3s;}
+			/* Accessories Zone */
+			.ps5-accessories{margin: 30px 0;}
+			.ps5-accessories p{font-size: 18px;}
+			.ps5-accessories .ps5-charger{margin: 30px 0;}
+			.ps5-charger{position: relative;}
+			.blue-backg-bottom{background-color: #0072CE; height: 80%; width: 100%; position: absolute; bottom: 0;}
+			.blue-backg-top{background-color: #0072CE; height: 30%; width: 100%; position: absolute; top: 0;}
+			.ps5-accessories .ps5-charger .text-on-white{ color: white;}
+			.ps5-charger .text-on-white a{color: white;}
+			/* headphones */
+			.ps5-headphones{position: relative; margin: 0; padding: 0;}
+			/*Stunning Game*/
+			.stunning-game{background-image: url('/images/promo-banners/campaigns/playstation/ps5/ps5-games-page-background.jpg'); background-repeat: no-repeat; background-position: center top; background-size: cover; height: 850px; width: 100%; margin: 0; position: relative;}
+			.stunning-game .stunning-game-text{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 95%; color: white;}
+			@media screen and (min-width:768px){
+				.ps5-accessories-vid .ps5-vid-text{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin: 0; background-color: rgba(255,255,255,0.5); padding: 10px; width: 70%;}
+				/* Accessories Zone */
+				.ps5-accessories{margin: 30px 5%; width: 90%;}		
+				.ps5-charger .text-on-white, .text-non-white{position: absolute; margin: 25% auto; width: 90%;}
+				/* Stunning Game ... */
+				.stunning-game{height: 600px;}
+				.stunning-game .stunning-game-text{left: 70%; transform: translate(-70%,-50%); width: 65%;}
+			}
+</style>
